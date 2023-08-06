@@ -1,0 +1,29 @@
+﻿*{
+    margin:0 auto;
+}
+body div {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+body {
+    background-color: lightgreen;
+    margin:0 auto;
+}
+
+.wrapper {
+    padding: 3rem;
+    display: flex;
+}
+
+.box {
+    background-color: #91b781;
+    margin: 1rem;
+    border-radius: 1rem;
+    display:inline-block
+}
+
+h3 {
+    padding: 2rem;
+}
