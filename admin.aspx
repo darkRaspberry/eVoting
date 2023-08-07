@@ -5,12 +5,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+
     <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
     <h1>E-Voting Portal</h1>
     <form id="form1" runat="server">
-                    <h1>Welcome to Admin Dashboard</h1>
+        <h1>Welcome to Admin Dashboard</h1>
         <div class="wrapper" style="display:block;">
 
             <div class="box" style="display:block!important">
