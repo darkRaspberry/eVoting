@@ -7,12 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace eVoting
 {
-    public partial class  : System.Web.UI.Page
+    public partial class admin : System.Web.UI.Page
     {
-
         protected void Page_Load(object sender, EventArgs e)
-    {
+        {
 
+        }
     }
-}
 }

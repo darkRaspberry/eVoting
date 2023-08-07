@@ -1,7 +1,8 @@
 ﻿*{
     margin:0 auto;
+    padding:1rem;
 }
-body div {
+body {
     margin: 0 auto;
     text-align: center;
     padding: 1rem;
@@ -13,8 +14,10 @@ body {
 }
 
 .wrapper {
-    padding: 3rem;
+    padding: 1rem;
     display: flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .box {
@@ -26,4 +29,7 @@ body {
 
 h3 {
     padding: 2rem;
+}
+h1{
+    text-align:center;
 }
