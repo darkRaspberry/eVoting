@@ -4,11 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Login</title>
+    <title>Login | E-Voting</title>
     <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
+        <h1>E-Voting</h1>
         <div class="box">
             <h3>Login</h3>
             <br />
@@ -24,12 +25,12 @@
             <br />
             <asp:Label ID="Label3" runat="server" Text="Login as:"></asp:Label>
             &nbsp;&nbsp;&nbsp;
-            <asp:RadioButton ID="RadioButton1" runat="server" Text="Student" />
+            <asp:RadioButton ID="RadioButton1" runat="server" Text="Voter" />
             &nbsp;&nbsp;&nbsp;
             <asp:RadioButton ID="RadioButton2" runat="server" Text="Admin" />
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" Text="Submit" BackColor="#CC0000" />
+            <asp:Button ID="Button1" runat="server" Text="Login" BackColor="#CC0000" />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button2" runat="server" Text="Reset" BackColor="#009933" />
         </div>
